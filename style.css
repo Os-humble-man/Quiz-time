@@ -11,5 +11,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto,sans-serif;
+    /* font-family: roboto,sans-serif;/ */
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+   
+}
+nav{
+    width: 90%;
+    margin: 40px auto ;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    padding: 0px 20px 0px 0px;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+}
+ ul li,a{
+    text-decoration: none;
+}
+nav .logo{
+    font-size: 26.72px;
+    font-family: 'Poppins',sans-serif;
+    color: #FCC822;
+}
+.logo span{
+    
+    color: #333333;
 }
