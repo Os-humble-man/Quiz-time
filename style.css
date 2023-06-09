@@ -21,12 +21,80 @@ header{
     height: 100vh;
    
 }
+.hero{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img{
+    max-width: 300px;
+    max-width: 400px;
+    object-fit: cover;
+}
+.image {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.btns{
+    padding: 40px 0px;
+    font-family: Poppins,sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn-1{
+    background-color: #FCC822;
+    color: #ffff;
+    padding: 10px 20px;
+    
+}
+.btn-2{
+    color: #FCC822;
+}
+
+p span{
+    padding-right: 5px;
+    border-left: 1px solid #333333;
+}
+.blob{
+    position: relative;
+}
+.blob img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 50;
+}
+
+.text p{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    color: #b3b1b1;
+    margin-bottom: 10px;
+}
+.text-hero h1{
+    font-size: 3.5rem;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 50px;
+}
+.image .svg{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 nav{
     width: 90%;
     margin: 40px auto ;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid  #cac9c9;
+    border-bottom: 1px solid  #b3b1b1;
     padding-bottom: 20px;
 }
 
@@ -76,4 +144,11 @@ nav .logo{
     color: #FCC822;
     font-size: 14px;
 }
+.btn:hover{
+    color: #ffff;
+    background-color: #FCC822;
+    transition: ease-in 0.2s;
+    
+}
+
 
