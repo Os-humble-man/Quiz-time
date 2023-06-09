@@ -13,6 +13,7 @@
     box-sizing: border-box;
     /* font-family: roboto,sans-serif;/ */
     font-weight: 400;
+    color: #333333;
 }
 
 header{
@@ -25,6 +26,8 @@ nav{
     margin: 40px auto ;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid  #cac9c9;
+    padding-bottom: 20px;
 }
 
 ul li,a{
@@ -44,19 +47,33 @@ ul li,a{
 }
 .menu li{
     padding: 0px 20px 0px 0px;
-    color: #333333;
     font-size: 14px;
     font-family: 'Poppins',sans-serif;
+}
+.menu li a{
+    color: #b3b1b1;
 }
  ul li,a{
     text-decoration: none;
 }
 nav .logo{
-    font-size: 26.72px;
     font-family: 'Poppins',sans-serif;
     color: #FCC822;
 }
 .logo span{
-    
+
     color: #333333;
 }
+
+.nav-link .btn{
+    text-decoration: none;
+    color: #FCC822;
+    font-family: 'Poppins',sans-serif;
+    border: 2px solid #FCC822;
+    padding: 5px 30px;
+}
+.btn a{
+    color: #FCC822;
+    font-size: 14px;
+}
+
