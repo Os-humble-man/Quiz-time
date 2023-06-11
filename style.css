@@ -45,8 +45,9 @@ header{
     display: flex;
     align-items: center;
     gap: 50px;
+    
 }
-.btn-1{
+.btn-1 {
     background-color: #FCC822;
     color: #ffff;
     padding: 10px 20px;
@@ -146,19 +147,16 @@ nav .logo{
     text-decoration: none;
     color: #FCC822;
     font-family: 'Poppins',sans-serif;
-    border: 2px solid #FCC822;
-    padding: 5px 30px;
+    
+    cursor: pointer;
 }
 .btn a{
     color: #FCC822;
     font-size: 14px;
+    border: 2px solid #FCC822;
+    padding: 5px 30px;
 }
-.btn:hover{
-    color: #ffff;
-    background-color: #FCC822;
-    transition: ease-in 0.2s;
-    
-}
+
 
 
 /* login */
