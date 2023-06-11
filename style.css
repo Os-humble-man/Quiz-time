@@ -211,7 +211,86 @@ nav .logo{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.form-btn1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+  
+}
+.form-btn1 input{
+    width: 20px;
+    height: 20px;
+    color: #FCC822;
+}
+
+.form-btn1 input:checked{
+    color: red;
+    background-color: #FCC822;
+}
+
+/* .checkbox{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .forgot-pass{
+    padding: 10px;
+} */
+form label{
+    padding: 20px 0px 20px;
+}
 form input{
     width: 60%;
     padding: 10px 20px;
+}
+form input :focus{
+    border-left: 2px solid #FCC822;
+}
+.form-btn1{
+    display: flex;
+}
+
+.left-side img{
+    width: 80%;
+    height: 100%;
+}
+
+.form-btn2{
+    display: flex;
+    align-items: center;
+    gap:50px
+}
+
+.form-btn2 .btn-log,.btn-sing {
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+}
+
+.form-btn2 .btn-log{
+    border: 2px solid #FCC822;
+    color: #ffff;
+    background-color: #FCC822;
+    
+}
+
+.form-btn2 .btn-sing{
+    border: 2px solid #FCC822;
+    background-color: #ffff;
+}
+.aut{
+    display: flex;
+    gap: 30px;
+    padding: 30px 0px;
+}
+
+.aut a{
+    color: #FCC822;
 }
